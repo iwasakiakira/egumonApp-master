@@ -59,7 +59,7 @@ class NurturingViewController: UIViewController {
                 if self.ActionCount < 10 && self.ActionCount >= 5 {
                     move2RVC.outputimage = "No.0001"
                     move2RVC.ArrayNum = 1
-                    move2RVC.outputcomment = "おれだよ"
+                    move2RVC.outputcomment = "呼んだ?"
                 }
                 if self.ActionCount < 5 && self.BAC >= 1 && self.BAC < 5 {
                     move2RVC.outputimage = "No.0002"
@@ -356,10 +356,208 @@ class NurturingViewController: UIViewController {
                     move2RVC.ArrayNum = 60
                     move2RVC.outputcomment = ""
                 }
-                
+                if self.ActionCount < 70 && self.ActionCount >= 65 {
+                    move2RVC.outputimage = "No.0061"
+                    move2RVC.ArrayNum = 61
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BAC >= 60 && self.BAC < 65 {
+                    move2RVC.outputimage = "No.0062"
+                    move2RVC.ArrayNum = 62
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BBC >= 60 && self.BBC < 65 {
+                    move2RVC.outputimage = "No.0063"
+                    move2RVC.ArrayNum = 63
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BCC >= 60 && self.BCC < 65 {
+                    move2RVC.outputimage = "No.0064"
+                    move2RVC.ArrayNum = 64
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BDC >= 60 && self.BDC < 65 {
+                    move2RVC.outputimage = "No.0065"
+                    move2RVC.ArrayNum = 65
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BEC >= 60 && self.BEC < 65 {
+                    move2RVC.outputimage = "No.0066"
+                    move2RVC.ArrayNum = 66
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BFC >= 60 && self.BFC < 65 {
+                    move2RVC.outputimage = "No.0067"
+                    move2RVC.ArrayNum = 67
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BGC >= 60 && self.BGC < 65 {
+                    move2RVC.outputimage = "No.0068"
+                    move2RVC.ArrayNum = 68
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BHC >= 60 && self.BHC < 65 {
+                    move2RVC.outputimage = "No.0069"
+                    move2RVC.ArrayNum = 69
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 65 && self.BIC >= 60 && self.BIC < 65 {
+                    move2RVC.outputimage = "No.0070"
+                    move2RVC.ArrayNum = 70
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 80 && self.ActionCount >= 75 {
+                    move2RVC.outputimage = "No.0071"
+                    move2RVC.ArrayNum = 71
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BAC >= 70 && self.BAC < 75 {
+                    move2RVC.outputimage = "No.0072"
+                    move2RVC.ArrayNum = 72
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BBC >= 70 && self.BBC < 75 {
+                    move2RVC.outputimage = "No.0073"
+                    move2RVC.ArrayNum = 73
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BCC >= 70 && self.BCC < 75 {
+                    move2RVC.outputimage = "No.0074"
+                    move2RVC.ArrayNum = 74
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BDC >= 70 && self.BDC < 75 {
+                    move2RVC.outputimage = "No.0075"
+                    move2RVC.ArrayNum = 75
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BEC >= 70 && self.BEC < 75 {
+                    move2RVC.outputimage = "No.0076"
+                    move2RVC.ArrayNum = 76
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BFC >= 70 && self.BFC < 75 {
+                    move2RVC.outputimage = "No.0077"
+                    move2RVC.ArrayNum = 77
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BGC >= 70 && self.BGC < 75 {
+                    move2RVC.outputimage = "No.0078"
+                    move2RVC.ArrayNum = 78
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BHC >= 70 && self.BHC < 75 {
+                    move2RVC.outputimage = "No.0079"
+                    move2RVC.ArrayNum = 79
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 75 && self.BIC >= 70 && self.BIC < 75 {
+                    move2RVC.outputimage = "No.0080"
+                    move2RVC.ArrayNum = 80
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 90 && self.ActionCount >= 85 {
+                    move2RVC.outputimage = "No.0081"
+                    move2RVC.ArrayNum = 81
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BAC >= 80 && self.BAC < 85 {
+                    move2RVC.outputimage = "No.0082"
+                    move2RVC.ArrayNum = 82
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BBC >= 80 && self.BBC < 85 {
+                    move2RVC.outputimage = "No.0083"
+                    move2RVC.ArrayNum = 83
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BCC >= 80 && self.BCC < 85 {
+                    move2RVC.outputimage = "No.0084"
+                    move2RVC.ArrayNum = 84
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BDC >= 80 && self.BDC < 85 {
+                    move2RVC.outputimage = "No.0085"
+                    move2RVC.ArrayNum = 85
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BEC >= 80 && self.BEC < 85 {
+                    move2RVC.outputimage = "No.0086"
+                    move2RVC.ArrayNum = 86
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BFC >= 80 && self.BFC < 85 {
+                    move2RVC.outputimage = "No.0087"
+                    move2RVC.ArrayNum = 87
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BGC >= 80 && self.BGC < 85 {
+                    move2RVC.outputimage = "No.0088"
+                    move2RVC.ArrayNum = 88
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BHC >= 80 && self.BHC < 85 {
+                    move2RVC.outputimage = "No.0089"
+                    move2RVC.ArrayNum = 89
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 85 && self.BIC >= 80 && self.BIC < 85 {
+                    move2RVC.outputimage = "No.0090"
+                    move2RVC.ArrayNum = 90
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 100 && self.ActionCount >= 95 {
+                    move2RVC.outputimage = "No.0091"
+                    move2RVC.ArrayNum = 91
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BAC >= 90 && self.BAC < 95 {
+                    move2RVC.outputimage = "No.0092"
+                    move2RVC.ArrayNum = 92
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BBC >= 90 && self.BBC < 95 {
+                    move2RVC.outputimage = "No.0093"
+                    move2RVC.ArrayNum = 93
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BCC >= 90 && self.BCC < 95 {
+                    move2RVC.outputimage = "No.0094"
+                    move2RVC.ArrayNum = 94
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BDC >= 90 && self.BDC < 95 {
+                    move2RVC.outputimage = "No.0095"
+                    move2RVC.ArrayNum = 95
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BEC >= 90 && self.BEC < 95 {
+                    move2RVC.outputimage = "No.0096"
+                    move2RVC.ArrayNum = 96
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BFC >= 90 && self.BFC < 95 {
+                    move2RVC.outputimage = "No.0097"
+                    move2RVC.ArrayNum = 97
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BGC >= 90 && self.BGC < 95 {
+                    move2RVC.outputimage = "No.0098"
+                    move2RVC.ArrayNum = 98
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BHC >= 90 && self.BHC < 95 {
+                    move2RVC.outputimage = "No.0099"
+                    move2RVC.ArrayNum = 99
+                    move2RVC.outputcomment = ""
+                }
+                if self.ActionCount < 95 && self.BIC >= 90 && self.BIC < 95 {
+                    move2RVC.outputimage = "No.0100"
+                    move2RVC.ArrayNum = 100
+                    move2RVC.outputcomment = "カイドゥー"
+                }
                 
                 self.countreset()
-                
                 
                 
                 //     else{
