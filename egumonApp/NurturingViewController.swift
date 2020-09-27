@@ -53,7 +53,6 @@ class NurturingViewController: UIViewController {
                     move2RVC.outputimage = "No.0000"
                     move2RVC.ArrayNum = 0
                     move2RVC.outputcomment = "やる気あんの?"
-                    
                     //                    self.monsterinfomation(monsterimage: "No.0000", ArrayNum: 0, comment: "なにかしようよ")
                 }
                 if self.ActionCount < 10 && self.ActionCount >= 5 {
@@ -608,17 +607,32 @@ class NurturingViewController: UIViewController {
             let move2RVC = self.storyboard?.instantiateViewController(withIdentifier: "MoveResult") as! ResultViewController
             //           ほにゃらら秒後にリザルト画面に遷移する｡
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                if self.ActionCount == 0{
-                    //                    move2RVC.outputcomment = self.inputField.text
+                
+                if self.BAC == 10 && self.BBC == 10 {
+                    move2RVC.outputimage = "No.0101"
+                    move2RVC.ArrayNum = 101
+                    move2RVC.outputcomment = ""
+                }
+                if self.BAC <= 10 && self.BBC <= 10 {
+                    move2RVC.outputimage = "No.0102"
+                    move2RVC.ArrayNum = 102
+                    move2RVC.outputcomment = ""
+                }else{
+                     
+                        move2RVC.outputimage = "No.0001"
+                        move2RVC.ArrayNum = 1
+                        move2RVC.outputcomment = "呼んだ?"
                     
                 }
+                self.countreset()
+                
                 //                     move2RVC.outputValue = self.inputField.text
                 
                 self.present(move2RVC,animated: true,completion: nil)
             }
             //           ほにゃらら秒後にActionCountを0にして再表示する｡
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                self.countreset()
+                
                 self.ActionCountLabel.text = " ActionCount:\(self.ActionCount)"
             }
         })

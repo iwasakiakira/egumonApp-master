@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
         print(monsterArray)
         //指定要素分固定値で初期化する
-         monsterArray = Array(repeating: "???", count: 101)
+         monsterArray = Array(repeating: "???", count: 151)
         print(monsterArray)
             UserDefaults.standard.set(monsterArray, forKey: "add")
     }
